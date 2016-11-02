@@ -5,6 +5,7 @@ describe('toRoman', () => {
         { arg: 1, expected: 'I'},
         { arg: 2, expected: 'II'},
         { arg: 3, expected: 'III'},
+        { arg: 4, expected: 'IV'},
         { arg: 5, expected: 'V'},
         { arg: 7, expected: 'VII'},
         { arg: 9, expected: 'IX'},

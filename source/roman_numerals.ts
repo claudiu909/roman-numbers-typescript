@@ -1,13 +1,9 @@
 export default function toRoman(num: number): string {
     let numbers = { 1 : 'I',
-                    2 : 'II',
-                    3 : 'III',
                     4 : 'IV',
                     5 : 'V',
                     9 : 'IX',
                     10: 'X',
-                    20: 'XX',
-                    30: 'XXX',
                     40: 'XL',
                     50: 'L',
                     90: 'XC',
@@ -16,7 +12,7 @@ export default function toRoman(num: number): string {
                     500: 'D',
                     900: 'CM',
                     1000: 'M' },
-        exceptions = [1000, 900, 500, 400, 100, 90, 50, 40, 30, 20, 10, 5];
+        exceptions = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 5, 1];
 
     if (numbers[num]) {
         return numbers[num];
